@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ChMS.Api/ChMS.Api.csproj" />
+    <Project Path="src/ChMS.Domain/ChMS.Domain.csproj" />
+    <Project Path="src/ChMS.Infrastructure/ChMS.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ChMS.Api.Tests/ChMS.Api.Tests.csproj" />
+    <Project Path="tests/ChMS.Domain.Tests/ChMS.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
