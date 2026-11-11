@@ -1,0 +1,9 @@
+@host = http://localhost:5169
+
+GET {{host}}/health
+
+###
+
+# Needs a bearer token from Entra ID.
+GET {{host}}/api/me
+Authorization: Bearer {{token}}
